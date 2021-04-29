@@ -43,7 +43,7 @@ const GithubProvider = ({ children }) => {
         if (repos.status === status) {
           setRepos(repos.value.data)
         }
-        if (repos.status === status) {
+        if (followers.status === status) {
           setFollowers(followers.value.data)
         }
       }).catch(err => {console.error(err)})
